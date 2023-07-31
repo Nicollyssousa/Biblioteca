@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Biblioteca.Models
 {
     [Table("Authors")]
-    public class Authors
+    public class Author
     {
         public int Id { get; set; }
         [Required]
